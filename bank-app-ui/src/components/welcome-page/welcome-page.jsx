@@ -1,16 +1,22 @@
 import React from "react";
 import './welcome-page.css'
+import logo from "../../resources/logo.png"
 
 function WelcomePage(){
     return(
         <div className="welcome-page">
             <div className="welcome-page-container">
-              <img className="imagine" src="img.png"/>
-              <p className="imagines" >The image is your gaze</p>
-              <span>
+              <div className="logo-container">
+              <img className="image"  src={logo} alt="Not found"/>
+              <p className="image-text" >The image is your gaze</p>
+               </div>
 
-              </span>
+            <div className="welcome-buttons-ares">
+             <button className="button-login">Login</button>
+             <button className="button-register">Register</button>
             </div>
+
+           </div>
         </div>
         
     )
