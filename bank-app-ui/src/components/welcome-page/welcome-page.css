@@ -7,8 +7,8 @@
 }
 
 .welcome-page-container{
-    height: 50vh;
-    width: 60%;
+    padding-bottom: 3%;
+    width: 70%;
     justify-self: center;
     align-self: center;
     border: 2px solid #111;
@@ -25,16 +25,11 @@
 }
 
 .image{
-    width:50%;
+    width:80%;
 }
 
-.image-text{
-   margin: 0;
-   font-weight: bold;
-} 
-
 .welcome-text{
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: 5% 10%;
     margin-top: 6%;
     text-indent: 30px;
@@ -42,7 +37,7 @@
 }
 
 .buttons{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     background-color: rgb(45, 141, 185);
     border-radius: 10px;
