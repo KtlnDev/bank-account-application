@@ -7,7 +7,6 @@
 }
 
 .box-container{
-    padding-bottom: 3%;
     width: 70%;
     justify-self: center;
     align-self: center;
@@ -22,12 +21,4 @@
     width: 80%;
     justify-self: center;
     align-self: center;
-}
-
-.welcome-text{
-    font-size: 1.2em;
-    padding: 5% 10%;
-    margin-top: 6%;
-    text-indent: 30px;
-    text-align: justify;
 }
