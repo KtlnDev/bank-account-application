@@ -22,3 +22,11 @@
     justify-self: center;
     align-self: center;
 }
+
+.form-container{
+    height: 25px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 0 6px 0 6px;
+    box-shadow: 5px 5px 15px;
+}
