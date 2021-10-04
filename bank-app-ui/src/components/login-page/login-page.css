@@ -6,7 +6,7 @@
     background: linear-gradient(to right bottom, #fdfdfd 49%, rgb(45, 141, 185) 51.3%); 
 }
 
-.box-container{
+.box-container-login{
     width: 70%;
     justify-self: center;
     align-self: center;
@@ -14,7 +14,7 @@
     border-radius: 12px;
     box-shadow: 5px 5px 30px;
     display: grid;
-    grid-template-columns: 40% 60%;    
+    grid-template-columns: 50% 50%;    
 }
 
 .logo{
@@ -23,10 +23,44 @@
     align-self: center;
 }
 
-.form-container{
-    height: 25px;
-    width: 200px;
-    margin: 0 auto;
+.login-container{
+    padding: 5%;
+}
+
+.login-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field{
+    height: 2rem;
+    width: 70%;
+    margin: 2% auto;
     border-radius: 0 6px 0 6px;
     box-shadow: 5px 5px 15px;
+}
+
+.login-button{
+    width: 70%;
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(45, 141, 185);
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-top: 5%;
+}
+
+.login-label{
+    align-self: start;
+    margin-left: 15%;
+    margin-top: 2%;
+    color: white
+}
+
+.login-button:hover{
+    color: rgb(45, 141, 185);
+    background-color: white;
+    border: 1px solid rgb(45, 141, 185);
 }
