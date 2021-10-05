@@ -1,7 +1,7 @@
 import React from "react"
 import './login-page.css'
 import logo from "../../resources/logo.png"
-import LoginIcon from "../../resources/login-icon.png"
+import LoginIcon from "../../resources/login.png"
 import { useForm } from "react-hook-form";
 
 function LoginPage(){
@@ -20,6 +20,7 @@ function LoginPage(){
                     <input className="input-field" type="text" name="password" placeholder="Enter your password"/>
                     <input className="login-button" type="submit" value="Login" />
             </form>
+            <a href="http://localhost:3000/register">Don't have an account?</a>  
             </div>
         </div>
     </div>
