@@ -15,7 +15,6 @@ function LoginPage(){
             password: password
         };
         console.log(loginData);
-
     }
 
     return(
@@ -28,7 +27,7 @@ function LoginPage(){
                     <label className="login-label">Email</label>
                     <input className="input-field" type="email" name="email" placeholder="Enter your email address" onChange={e => setEmail(e.target.value)} required/>
                     <label className="login-label">Password</label>
-                    <input className="input-field" type="text" name="password" placeholder="Enter your password" onChange={e => setPassword(e.target.value)} required/>
+                    <input className="input-field" type="password" name="password" placeholder="Enter your password" onChange={e => setPassword(e.target.value)} required/>
                     <span className="error-message">{errorMessage}</span>
                     <input className="login-button" type="submit" value="Login" />
                 </form>
