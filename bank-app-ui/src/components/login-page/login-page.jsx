@@ -15,6 +15,7 @@ function LoginPage(){
                     <input className="input-field" type="email" name="email" placeholder="Enter your email address"  />
                     <label className="login-label">Password</label>
                     <input className="input-field" type="text" name="password" placeholder="Enter your password"/>
+                    <span className="error-message"></span>
                     <input className="login-button" type="submit" value="Login" />
                 </form>
                 <a href="/register" className="hyperlink">Don't have an account? Let's create one!</a>  

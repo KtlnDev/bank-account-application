@@ -22,6 +22,7 @@ function RegisterPage(){
                     <input className="register-field" type="text" name="password" placeholder="Enter your password"/>
                     <label className="register-label">Confirm Password</label>
                     <input className="register-field" type="text" name="lastName" placeholder="Confirm your Password"/>
+                    <span className="error-message"></span>
                     <input className="register-button" type="submit" value="Register" />
                 </form> 
                 <a href="/login" className="hyperlink">Already have an account? Sign in!</a>
