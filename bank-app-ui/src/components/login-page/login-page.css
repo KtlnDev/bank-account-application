@@ -1,0 +1,84 @@
+.page-container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    background-color: blue;
+    background: linear-gradient(to right bottom, #fdfdfd 49%, rgb(45, 141, 185) 51.3%); 
+}
+
+.box-container-login{
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid #111;
+    border-radius: 12px;
+    box-shadow: 5px 5px 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;    
+}
+
+.logo{
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+}
+
+.login-container{
+    padding: 5%;
+}
+
+.login-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field{
+    height: 2rem;
+    width: 70%;
+    margin: 1% auto;
+    border-radius: 0 6px 0 6px;
+    box-shadow: 5px 5px 15px;
+}
+
+.login-button{
+    width: 70%;
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(45, 141, 185);
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.login-label{
+    align-self: start;
+    margin-left: 15%;
+    margin-top: 2%;
+    color: rgb(7, 7, 7);
+}
+
+.login-button:hover{
+    color: rgb(45, 141, 185);
+    background-color: white;
+    border: 1px solid rgb(45, 141, 185);
+}
+
+.hyperlink{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.hyperlink:hover{
+    color: black;
+}
+
+.error-message{
+    color: rgb(207, 0, 0);
+    font-weight: bold;
+    font-size:1.2rem;
+    margin-top:2%;
+}
