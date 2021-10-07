@@ -1,4 +1,7 @@
 const express = require('express');
 const app = express();
+const database = require('./util/database')
 
-app.listen(8000, () => console.log('Server running'));
+database.openConnection();
+
+app.listen(8080, () => console.log('Server running'));
