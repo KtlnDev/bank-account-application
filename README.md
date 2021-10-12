@@ -9,5 +9,5 @@ Prerequisites:
 
 Development
 - Open project in Visual Studio Code
-- Open a terminal, go to "bank-app-ui" directory and run "npm install". After the installation, run "npm start".
-- Open a terminal, go to "bank-app" directory and run "npm install". After the installation, run "npm start".
+- Open a terminal, go to "bank-app-ui" directory and run ```npm install```. After the installation, run ```npm start```.
+- Open a terminal, go to "bank-app" directory and run ```npm install```. After the installation, run ```npm start```.
