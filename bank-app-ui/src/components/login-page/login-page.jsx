@@ -20,7 +20,7 @@ function LoginPage(){
     return(
     <div className="page-container">
         <div className="box-container-login">
-            <img className="logo"  src={logo} alt="Not found"/>
+            <img className="logos"  src={logo} alt="Not found"/>
             <div className="login-container">
                 <img  src={LoginIcon} alt="Not found"/>
                 <form  className="login-form" onSubmit={loginHandler} >

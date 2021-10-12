@@ -1,0 +1,33 @@
+.page-container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    background-color: blue;
+    background: linear-gradient(to right bottom, #fdfdfd 49%, rgb(45, 141, 185) 51.3%); 
+}
+
+.topnav {
+    width:100%;
+    height:10vh;
+    background: rgba(250, 250, 250, 0.9);   
+    display: grid;
+    grid-template-columns: 25% 50% 25%; 
+}
+
+.topnav p{
+    font-weight: bold;
+}
+
+.topnav a{
+    float: right;
+  color: #0a0a0a;
+  padding: 15px 15px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 17px;
+}
+ .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+

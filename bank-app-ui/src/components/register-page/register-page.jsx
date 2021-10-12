@@ -27,7 +27,7 @@ function RegisterPage(){
     return(
     <div className="page-container">
         <div className="box-container-register">
-            <img className="logo"  src={logo} alt="Not found"/>
+            <img className="logos"  src={logo} alt="Not found"/>
             <div className="register-container">
                 <img  src={RegisterIcon} alt="Not found"/>
                 <form  className="register-form" onSubmit={registerHandler} >

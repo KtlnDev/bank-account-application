@@ -7,7 +7,7 @@ function WelcomePage(){
     return(
         <div className="page-container">
             <div className="box-container">
-                <img className="logo"  src={logo} alt="Not found"/>
+                <img className="logos"  src={logo} alt="Not found"/>
                 <div className="welcome-buttons-area">
                     <p className="welcome-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
