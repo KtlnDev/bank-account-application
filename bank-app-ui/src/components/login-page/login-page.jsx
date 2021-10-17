@@ -3,7 +3,7 @@ import './login-page.css'
 import logo from "../../resources/logo.png"
 import LoginIcon from "../../resources/login-icon.png"
 
-function LoginPage(){
+function LoginPage(props){
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
@@ -14,6 +14,7 @@ function LoginPage(){
             email: email,
             password: password
         };
+        props.history.push('/main');
         console.log(loginData);
     }
 
@@ -25,9 +26,9 @@ function LoginPage(){
                 <img  src={LoginIcon} alt="Not found"/>
                 <form  className="login-form" onSubmit={loginHandler} >
                     <label className="login-label">Email</label>
-                    <input className="input-field" type="email" name="email" placeholder="Enter your email address" onChange={e => setEmail(e.target.value)} required/>
+                    <input className="input-field" type="email" name="email" placeholder="Enter your email address" onChange={e => setEmail(e.target.value)}/>
                     <label className="login-label">Password</label>
-                    <input className="input-field" type="password" name="password" placeholder="Enter your password" onChange={e => setPassword(e.target.value)} required/>
+                    <input className="input-field" type="password" name="password" placeholder="Enter your password" onChange={e => setPassword(e.target.value)}/>
                     <span className="error-message">{errorMessage}</span>
                     <input className="login-button" type="submit" value="Login" />
                 </form>
